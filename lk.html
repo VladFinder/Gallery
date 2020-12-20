@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html> 
+
+<head>
+    <title>Главная</title>
+    <link href="css/css-1.css" rel="stylesheet" type="text/css">
+    <link href="css/css-reset.css" rel="stylesheet" type="text/css">
+    <script src = "javascript/js.js"></script>
+</head>
+
+<body style="background-image: url(img/fon.jpg); background-repeat: no-repeat;  background-position: top center; background-size: 100%">
+    
+    <header>
+         <img src="img/logo.png" class="logo" alt="mona logo">
+         <ul class="buttonAll">
+           <li><button class="button" onclick="document.location='index.html'">Главная</button></li>
+           <li><button class="button" onclick="document.location='prof.html'">Профиль художника</button></li>
+           <li><button class="button" onclick="document.location='diov.html'">Детальная информация</button></li>
+           <li><button class="button" onclick="document.location='gal.html'">Галерея</button></li>
+           <li><button class="button" onclick="document.location='lk.html'">Личный кабинет</button></li>
+        </ul>
+    </header>
+
+    <div class="aParent">
+      <div class="av">
+          <input><br>
+          <input type="" name="">
+          <button class="but_av" onclick="document.location='lk.html'">Войти</button><br>
+      </div>
+
+      <div class="reg">
+          <div>
+            <p style="display: inline-block;">Фамилия</p>
+            <input style="display: inline-block;">
+          </div>
+
+          <div>
+            <p style="display: inline-block;">Имя</p>
+            <input style="display: inline-block;">
+          </div>
+
+          <div>
+            <p style="display: inline-block;">Отчество</p>
+            <input style="display: inline-block;">
+          </div>
+
+          <div>
+            <p style="display: inline-block;">E-mail</p>
+            <input style="display: inline-block;">
+          </div>
+
+          <div>
+            <p style="display: inline-block;">Телефон</p>
+            <input style="display: inline-block;">
+          </div>
+
+          <div>
+            <p style="display: inline-block;">О себе</p>
+            <input style="display: inline-block;">
+          </div>
+            <button class="but_av" onclick="document.location='lk.html'">Зарегестрироваться</button>
+      </div>
+    </div>
+
+    <div id="footer">
+        <table class="iksweb">
+            <tbody>
+                <tr>
+                    <td id="td_logo" rowspan="3"><img src="img/logo.png" class="logo" alt="mona logo table"></td>
+                    <td class="par">
+                        <a href="index.html" class="text_link">Главная</a>
+                        <a href="prof.html" class="text_link">Профиль художника</a>
+                        <a href="diov.html" class="text_link">Детальная информация о выставке</a>
+                    </td>
+                    <td>
+                        <a href="gal.html" class="text_link">Галерея</a>
+                        <a href="lk.html" class="text_link">Личный кабинет</a>
+                    </td>
+                    <td><div class="text_link">Контакты: +7 (965) 55 05 868</div></td>
+                    <td>
+                        <button class="button_av" onclick="document.location='lk.html'">Войти</button><br>
+                        <button class="button_av" onclick="document.location='lk.html'">Зарегестрироваться</button>
+                    </td>
+                </tr>
+                 <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                 </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

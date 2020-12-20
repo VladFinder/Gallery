@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html> 
+
+<head>
+    <title>Главная</title>
+    <link href="css/css-1.css" rel="stylesheet" type="text/css">
+    <link href="css/css-reset.css" rel="stylesheet" type="text/css">
+    <script src = "javascript/js.js"></script>
+</head>
+
+<body style="background-image: url(img/fon.jpg); background-repeat: no-repeat;  background-position: top center; background-size: 100%">
+    
+    <header>
+         <img src="img/logo.png" class="logo" alt="mona logo">
+         <ul class="buttonAll">
+           <li><button class="button" onclick="document.location='index-1.html'">Главная</button></li>
+           <li><button class="button" onclick="document.location='prof.html'">Профиль художника</button></li>
+           <li><button class="button" onclick="document.location='diov.html'">Детальная информация</button></li>
+           <li><button class="button" onclick="document.location='gal.html'">Галерея</button></li>
+           <li><button class="button" onclick="document.location='lk.html'">Личный кабинет</button></li>        </ul>
+    </header>
+
+
+    <div class="container">
+
+        <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+              <img class="img_gal" src="img/11032.jpg" style="width:30%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+              <img class="img_gal" src="img/250px-Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg" style="width:30%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+              <img class="img_gal" src="img/dama.jpg" style="width:30%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+              <img class="img_gal" src="img/fon.jpg" style="width:30%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+              <img class="img_gal" src="img/logo.png" style="width:30%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+              <img class="img_gal" src="img/1 афиша.jpg" style="width:30%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+              <img class="demo cursor" src="img/11032.jpg" style="width:60%" onclick="currentSlide(1)" alt="">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="img/250px-Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg" style="width:60%" onclick="currentSlide(2)" alt="">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="img/dama.jpg" style="width:60%" onclick="currentSlide(3)" alt="">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="img/fon.jpg" style="width:60%" onclick="currentSlide(4)" alt="">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="img/logo.png" style="width:60%" onclick="currentSlide(5)" alt="">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="img/1 афиша.jpg" style="width:60%" onclick="currentSlide(6)" alt="">
+            </div>
+    </div>
+
+
+    <div id="footer">
+        <table class="iksweb">
+            <tbody>
+                <tr>
+                    <td id="td_logo" rowspan="3"><img src="img/logo.png" class="logo" alt="mona logo table"></td>
+                    <td class="par">
+                        <a href="index-1.html" class="text_link">Главная</a>
+                        <a href="prof.html" class="text_link">Профиль художника</a>
+                        <a href="diov.html" class="text_link">Детальная информация о выставке</a>
+                    </td>
+                    <td>
+                        <a href="gal.html" class="text_link">Галерея</a>
+                        <a href="lk.html" class="text_link">Личный кабинет</a>
+                    </td>
+                    <td><div class="text_link">Контакты: +7 (965) 55 05 868</div></td>
+                    <td>
+                        <button class="button_av" onclick="document.location='lk.html'">Войти</button><br>
+                        <button class="button_av" onclick="document.location='lk.html'">Зарегестрироваться</button>
+                    </td>
+                </tr>
+                 <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                 </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

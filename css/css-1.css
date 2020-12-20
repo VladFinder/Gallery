@@ -1,0 +1,348 @@
+header 
+{
+    max-height: 100px;
+    min-height: 100px;
+    background: #837667;
+    text-align: center;
+    margin:0 24px; position:relative;; min-width: 980px; max-width:100%; _width:expression(document.body.clientWidth < 1000? "1000" : document.body.clientWidth > 1000? "100%" : "auto");
+}
+ul.buttonAll
+{
+    margin: 0; /* Обнуляем значение отступов */
+    padding-top: 20px;
+}
+ul.buttonAll li
+{
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 22px; /* Отступ слева */ 
+    
+} 
+.button{
+    width: 15%; /*ширина*/ 
+    height: 60px; /*высота*/ 
+    background-color: #D4C3AE;
+    border-radius: 15px; /*скругление*/ 
+    border: none; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    box-shadow: 0 0 10px;
+}
+.logo{
+    width: 90px;
+    height: 55;
+    float: left; /* Выравнивание по правому краю */
+    margin: 5px 0 0 50px; /* Отступы вокруг фотографии */
+}
+
+#footer{
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    color: #fff; /* Цвет текста */
+    background-color:#837667;
+    width: 100%; /* Ширина слоя */
+    height: 10%;
+    border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+    border: 1px solid grey; /*устанавливаем для таблицы внешнюю границу серого цвета толщиной 1px*/
+}
+
+table.iksweb{
+	width: 100%;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+}
+table.iksweb,table.iksweb td, table.iksweb th {
+	border: 1px solid #595959;
+}
+table.iksweb td,table.iksweb th {
+	padding: 3px;
+	width: 30px;
+	height: 35px;
+}
+table.iksweb th {
+	background: #347c99; 
+	color: #fff; 
+	font-weight: normal;
+}
+#name{
+  font-family: serif;
+  font-size: 150%;
+  padding-left: 10%;
+  padding-top: 4%;
+  font-family: sans-serif;
+}
+
+.slideshow-container {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  position: relative;
+  margin-left: 7%;
+  float: left;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cont{
+    margin-left: 75%;
+    width: 16%;
+    padding-bottom: 1%;
+    background-color: #D4C3AE;
+}
+
+#td_logo{
+    width: 10%;
+    padding-bottom: 7%;
+}
+
+.text_link{
+    font-size: 17pt;
+    display: flex;
+    flex-flow: column wrap;
+    color: black;
+}
+
+.container {
+    float: right;
+    width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: ;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #837667;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.button_av{
+    margin-left: 20%;
+    margin-bottom: 2%;
+    width: 60%; /*ширина*/ 
+    height: 30%; /*высота*/ 
+    background-color: #D4C3AE;
+    border-radius: 15px; /*скругление*/ 
+    border: none; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    box-shadow: 0 0 10px;
+}
+
+.img_cont{
+    width: 100%;
+}
+
+.left{
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 10%;
+}
+
+.right{
+    float: right;
+    margin-right: 68%;
+    margin-top: 5%; 
+    background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.img_gal{
+    margin-left: 35%;
+}
+
+.av input{
+    margin-bottom: 5%;
+    margin-left: 14%;
+}
+
+.reg input{
+    margin-bottom: 5%;
+}
+
+.reg p{
+    width: 25%;
+}
+
+
+.av{
+    float: left;
+    margin-left: 33%;
+    margin-top: 15%; 
+    padding: 1%;
+    padding-bottom: 10%;
+    background-color: #D4C3AE;
+}
+
+.reg{
+    margin-top: 15%;
+    margin-right: 33%; 
+    float: right;
+    padding: 1%;
+    padding-bottom: 2.5%;
+    background-color: #D4C3AE;   
+}
+
+.but_av{
+    width: 100%;
+    height: 30%; /*высота*/ 
+    background-color: #D4C3AE;
+    border-radius: 15px; /*скругление*/ 
+    border: none; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    box-shadow: 0 0 10px;
+}
+
+.text_af{
+    margin-left: 20%;
+    margin-top: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.im_box{
+    display: flex;
+    margin-left: 5%;
+}
+
+.im_box img{
+    width: 24%;
+    height: 20%;
+    padding: 5%;
+}
+
+.inf_af{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.bt_pr{
+    fowidth: 100%;
+    height: 30%; /*высота*/ 
+    background-color: #9B8E7F;
+    border-radius: 15px; /*скругление*/ 
+    border: none; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    box-shadow: 0 0 10px;
+    margin-left: 22%;
+}
